@@ -15,19 +15,62 @@ h1 { padding-top: 45px;
 h4 { background-color: #D2B48C;
     font-size: 1.2em;
 	padding-left:   .5em;   
-	padding-bottom: .25em;    
+	padding-bottom: .25em;
+    text-transform: uppercase;
+    border-bottom;
+    padding-bottom: 0px;
+    clear: left;
+    
+}
+floatleft { float: left;
+            padding-right: 2em;
+            padding-bottom: 2em;
 }
 nav { text-align: center; 
      font-weight: bold; 
 	 font-size: 1.5em;
 	 padding-top: 10px;
+    float: left;
+    width: 200px;
+}
+nav ul {padding-left: 0em
+    
 }
 nav a { text-decoration: none; }
-main { padding-left: 2em;
-      padding-right: 2em;
+nav a:link { color: #FEF6C2;}
+nav a:hover { color: #CC9933;}
+nav a:visted { Color: #D2B48C;}
+main { padding-left: 0em;
+      padding-right: 0em;
 	  padding-bottom: 2em;
+    padding-top: 0em;
+    margin-left: 200px;
+    background-color: #FEF6C2;
 	  display: block;
 }
+main h2 {padding-left: 3em;
+    padding-right: 2em
+    
+}
+main h3 { padding-left: 3em;
+    padding-right: 2em   
+}
+main h4 { padding-left: 3em;
+    padding-right: 2em   
+}
+main p { padding-left: 3em;
+    padding-right: 2em   
+}
+main div { padding-left: 3em;
+    padding-right: 2em    
+}
+main ul { padding-left: 3em;
+    padding-right: 2em   
+}
+main dl { padding-left: 3em;
+    padding-right: 2em   
+}
+
 footer { background-color: #D2B48C;
        font-size: .60em;
 	   font-style: italic;
@@ -36,13 +79,31 @@ footer { background-color: #D2B48C;
 #wrapper { width: 80%;
            margin-right: auto;
 		   margin-left: auto;
-		   background-color: #FEF6C2;
+		   background-color: #231814;
 		   min-width: 900px;
 		   max-width: 1280px;
 		   box-shadow: 3px 3px 3px #666666;
 }
+* { box-sizing: border-box;
+}
+
+#heroroad { background-image: url(heroroad.jpg);
+            background-size: 100%;
+            height: 250px;
+}
+#heromugs { background-image: url(heromugs.jpg);
+            background-size: 100%;
+            height: 250px;        
+}
+#heroguitar { background-image: url(heroguitar.jpg);
+                background-size: 100%;
+                height: 250px;
+}
 .details { padding-left: 20%;
            padding-right: 20%;
+            overflow: auto;
+}
+header, nav, main, footer {display: block;
 }
 img { padding-left: 10px;
      padding-right: 10px;
